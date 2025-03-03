@@ -220,23 +220,20 @@ footer a {
     }
 
     header div {
-        display: inline;
+        display: inline-block;
     }
     header div img {
         display: inline;
         margin-bottom: 0;
     }
     header div p {
-        display: inline;
+        display: inline-block;
+        /* width: 50%; */
+        margin: 0;
     }
     header nav {
-        display: inline;
-    }
-    header nav ul {
-        display: inline;
-    }
-    header nav li {
-        display: inline;
+        display: inline-block;
+        /* width: 10%; */
     }
        
     h2 {
@@ -252,9 +249,9 @@ footer a {
         width: 48%;
     }
     
-   /*  #maremma iframe {
+    #maremma iframe {
         height: 100%;
-    } */
+    }
 
 
 
