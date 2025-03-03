@@ -198,6 +198,7 @@ footer a {
     
     table {
         margin: 2em auto;
+        width: 70%;
     }
 
     footer p {
@@ -209,10 +210,70 @@ footer a {
     }
 }
 
-/* small laptop */
+/* desktop*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+        
+    header {
+        padding: 0.5em 1em;
+        text-align: left;
+    }
+
+    header div {
+        display: inline;
+    }
+    header div img {
+        display: inline;
+        margin-bottom: 0;
+    }
+    header div p {
+        display: inline;
+    }
+    header nav {
+        display: inline;
+    }
+    header nav ul {
+        display: inline;
+    }
+    header nav li {
+        display: inline;
+    }
+       
+    h2 {
+        font-weight: bold;
+    }
+
     
+
+    section,
+    iframe  {
+        display: inline-block;
+        margin: 0;
+        width: 48%;
+    }
+    
+   /*  #maremma iframe {
+        height: 100%;
+    } */
+
+
+
+    .articoli {
+        display: inline-block;
+        margin: 0;
+        width: 33%;
+    }
+
+
+
+    footer {
+        padding: 1em 5em;
+    }
+
+    aside h2 {
+        font-size: 2.5rem;
+        margin-top: 1em;
+    }
 }
 
 /* desktop */
