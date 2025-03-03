@@ -11,6 +11,7 @@ body {
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
+
 /* HEADER */
 header {
     background: rgb(0,160,198);
@@ -31,6 +32,7 @@ header nav ul {
 }
 header nav li {
     list-style: none;
+    display: inline-block;
 }
 header nav li a {
     color: white;
@@ -177,4 +179,44 @@ footer {
 }
 footer a {
     color: fuchsia;
+}
+
+/* Ipad */
+
+@media screen and (min-width: 576px) {
+    body {
+        font-size: 1.6em;
+    }
+
+    main {
+        padding: 2em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    table {
+        margin: 2em auto;
+    }
+
+    footer p {
+        font-size: 1.8em;
+    }
+
+    address {
+        font-size: 1.5em;
+    }
+}
+
+/* small laptop */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* desktop */
+
+@media screen and (min-width: 1200px) {
+    
 }
